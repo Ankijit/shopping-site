@@ -1,0 +1,30 @@
+
+
+<%- include("partials/header.ejs") %>
+    <%- include("partials/background.ejs") %>
+        <%- include("partials/category.ejs") %>
+            <div class="trend">
+                <p>Trending section</p>
+               
+                <div class="trending">
+                    
+                    <% athletes.forEach(items => { %>
+                    <div class="trenditems">
+                        <div class="trendimage"> <img src="<%= items.image %>" loading="lazy"></div>
+                        <div class="trendname">
+                            <%= items.name %>
+                        </div>
+                        <div class="trendprice">
+                            Price: <%= items.price %>
+                        </div>
+
+                    </div>
+                    <%  })%>
+                </div>
+           
+            </div>
+            <a href="/" id="linkshowmore"><input type="button" value="Go back" class="browse all" id="show" onclick="showall()"></a>
+        </div>
+
+
+            <%- include("partials/footer.ejs") %>

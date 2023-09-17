@@ -1,0 +1,43 @@
+
+.background, .text {
+    height: 400px;
+}
+
+.text{
+    font-size: 1rem;
+    margin-left: 0;
+}
+
+.browse {
+    font-size: 0.5rem;
+    padding: 3px 5px;
+}
+.trendimage img {
+    height: 10rem;
+    width: 7rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px 0 10px;
+    gap: 16px;
+}
+
+.head {
+    margin-bottom: 4px;
+}
+
+.newsletter>form input {
+    height: 34px;
+    font-size: 9px
+}
+.letterbutton {
+    padding: 4px 10px;
+}
+
+.sectionimage {
+    height: 294px;
+}
+
+

@@ -1,0 +1,15 @@
+.category img {
+    height: 24rem;
+    width: 16rem;
+}
+
+.trendimage img {
+    height: 16rem;
+    width: 12rem;
+}
+
+
+.trending{
+    grid-template-columns: 24vw 24vw 24vw 24vw;
+}
+
