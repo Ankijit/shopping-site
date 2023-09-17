@@ -1,0 +1,30 @@
+
+.category img {
+    height: 15rem;
+    width: 10rem;
+}
+
+.trending {
+    grid-template-columns: 1fr 1fr;
+}
+
+.trendimage img {
+    height: 15rem;
+    width: 10rem;
+}
+
+.head {
+    font-size: 9px;
+    margin-bottom: 15px;
+}
+footer{
+    padding: 25px 10px 0 10px;
+    gap: 47px
+}
+
+.letterbutton {
+    font-size: 7px;
+}
+.copyright{
+    font-size: 13px;
+}
